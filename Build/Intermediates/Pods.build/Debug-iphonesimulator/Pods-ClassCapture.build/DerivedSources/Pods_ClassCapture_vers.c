@@ -1,0 +1,1 @@
+ const unsigned char Pods_ClassCaptureVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_ClassCapture  PROJECT:Pods-1" "\n"; const double Pods_ClassCaptureVersionNumber __attribute__ ((used)) = (double)1.;

@@ -1,0 +1,170 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Recording"
+provides-nominal:
+- "C12ClassCapture9Recording"
+provides-member:
+- ["C12ClassCapture9Recording", ""]
+provides-dynamic-lookup:
+- "endTime"
+- "fileName"
+- "startTime"
+- "recordingID"
+- "dateLastModified"
+- "dateCreated"
+- "section"
+depends-top-level:
+- "NSDate"
+- "String"
+- "Object"
+- "Recording"
+depends-member:
+- ["PSs9AnyObject", "dateCreated"]
+- ["PSs9AnyObject", "dateLastModified"]
+- ["PSs9AnyObject", "endTime"]
+- ["PSs9AnyObject", "fileName"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "recordingID"]
+- ["PSs9AnyObject", "section"]
+- ["PSs9AnyObject", "startTime"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "dateCreated"]
+- ["PSs11CVarArgType", "dateLastModified"]
+- ["PSs11CVarArgType", "endTime"]
+- ["PSs11CVarArgType", "fileName"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "recordingID"]
+- ["PSs11CVarArgType", "section"]
+- ["PSs11CVarArgType", "startTime"]
+- ["PSs23CustomStringConvertible", "dateCreated"]
+- ["PSs23CustomStringConvertible", "dateLastModified"]
+- ["PSs23CustomStringConvertible", "endTime"]
+- ["PSs23CustomStringConvertible", "fileName"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "recordingID"]
+- ["PSs23CustomStringConvertible", "section"]
+- ["PSs23CustomStringConvertible", "startTime"]
+- ["PSs9Equatable", "dateCreated"]
+- ["PSs9Equatable", "dateLastModified"]
+- ["PSs9Equatable", "endTime"]
+- ["PSs9Equatable", "fileName"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "recordingID"]
+- ["PSs9Equatable", "section"]
+- ["PSs9Equatable", "startTime"]
+- ["PSs8Hashable", "dateCreated"]
+- ["PSs8Hashable", "dateLastModified"]
+- ["PSs8Hashable", "endTime"]
+- ["PSs8Hashable", "fileName"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "recordingID"]
+- ["PSs8Hashable", "section"]
+- ["PSs8Hashable", "startTime"]
+- ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "dateCreated"]
+- ["CSo8NSObject", "dateLastModified"]
+- ["CSo8NSObject", "endTime"]
+- ["CSo8NSObject", "fileName"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "recordingID"]
+- ["CSo8NSObject", "section"]
+- ["CSo8NSObject", "startTime"]
+- ["PSo16NSObjectProtocol", "dateCreated"]
+- ["PSo16NSObjectProtocol", "dateLastModified"]
+- ["PSo16NSObjectProtocol", "endTime"]
+- ["PSo16NSObjectProtocol", "fileName"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "recordingID"]
+- ["PSo16NSObjectProtocol", "section"]
+- ["PSo16NSObjectProtocol", "startTime"]
+- ["C10RealmSwift6Object", "NSDate"]
+- ["C10RealmSwift6Object", "String"]
+- ["C10RealmSwift6Object", "dateCreated"]
+- ["C10RealmSwift6Object", "dateLastModified"]
+- ["C10RealmSwift6Object", "endTime"]
+- ["C10RealmSwift6Object", "fileName"]
+- ["C10RealmSwift6Object", "init"]
+- ["C10RealmSwift6Object", "recordingID"]
+- ["C10RealmSwift6Object", "section"]
+- ["C10RealmSwift6Object", "startTime"]
+- ["C10RealmSwift6Object", ""]
+- ["CSo13RLMObjectBase", "NSDate"]
+- ["CSo13RLMObjectBase", "String"]
+- ["CSo13RLMObjectBase", "dateCreated"]
+- ["CSo13RLMObjectBase", "dateLastModified"]
+- ["CSo13RLMObjectBase", "endTime"]
+- ["CSo13RLMObjectBase", "fileName"]
+- ["CSo13RLMObjectBase", "init"]
+- ["CSo13RLMObjectBase", "recordingID"]
+- ["CSo13RLMObjectBase", "section"]
+- ["CSo13RLMObjectBase", "startTime"]
+- ["C12ClassCapture9Recording", "NSDate"]
+- ["C12ClassCapture9Recording", "String"]
+- ["C12ClassCapture9Recording", "dateCreated"]
+- ["C12ClassCapture9Recording", "dateLastModified"]
+- ["C12ClassCapture9Recording", "deinit"]
+- ["C12ClassCapture9Recording", "endTime"]
+- ["C12ClassCapture9Recording", "fileName"]
+- ["C12ClassCapture9Recording", "init"]
+- ["C12ClassCapture9Recording", "recordingID"]
+- ["C12ClassCapture9Recording", "section"]
+- ["C12ClassCapture9Recording", "startTime"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C10RealmSwift6Object"
+- "CSo13RLMObjectBase"
+- "C12ClassCapture9Recording"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMSchema.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMResults.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMRealm.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMConstants.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMProperty.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMObject.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMMigration.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMDefines.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMCollection.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMArray.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/Realm.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Modules/module.modulemap"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/RealmSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+interface-hash: "b75a4407859532a48873474547935e11"

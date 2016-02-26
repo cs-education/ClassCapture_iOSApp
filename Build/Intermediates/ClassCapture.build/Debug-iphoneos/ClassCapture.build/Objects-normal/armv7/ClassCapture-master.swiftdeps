@@ -1,0 +1,20 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "d01335a32ebdec0993ff480c3d92bb16"
+build_time: [507999092, 570323000]
+inputs:
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/RecordingsServiceProvider.swift": [506636378, 0]
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/CoursesServiceProvider.swift": [507228132, 0]
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/Recording.swift": [507227071, 0]
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/AppDelegate.swift": [507228249, 0]
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/Course.swift": [507227428, 0]
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/UploadRecordingVC.swift": [506634659, 0]
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/User.swift": [507702349, 0]
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/Section.swift": [507227410, 0]
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/UsersServiceProvider.swift": [507853531, 0]
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/Model.swift": [507230249, 0]
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/DataValidator.swift": [507230197, 0]
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/SideDrawerMenuVC.swift": [506637449, 0]
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/ViewController.swift": [507703183, 0]
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/SignUpVC.swift": [507703368, 0]
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/SettingsVC.swift": [506637202, 0]
+  "/Users/NicholasGarfield/Documents/Projects/ClassCapture/ClassCapture/CaptureVC.swift": [506637202, 0]

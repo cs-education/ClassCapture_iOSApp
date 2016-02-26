@@ -1,0 +1,220 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SettingsVC"
+provides-nominal:
+- "C12ClassCapture10SettingsVC"
+provides-member:
+- ["C12ClassCapture10SettingsVC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "numberOfSectionsInTableView"
+- "viewDidLoad"
+- "tableView"
+depends-top-level:
+- "UITableView"
+- "SettingsVC"
+- "UITableViewController"
+- "Int"
+depends-member:
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "numberOfSectionsInTableView"]
+- ["PSs9AnyObject", "tableView"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "numberOfSectionsInTableView"]
+- ["PSs11CVarArgType", "tableView"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "numberOfSectionsInTableView"]
+- ["PSs23CustomStringConvertible", "tableView"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "numberOfSectionsInTableView"]
+- ["PSs9Equatable", "tableView"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "numberOfSectionsInTableView"]
+- ["PSs8Hashable", "tableView"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "numberOfSectionsInTableView"]
+- ["PSo8NSCoding", "tableView"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "numberOfSectionsInTableView"]
+- ["PSo26NSExtensionRequestHandling", "tableView"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "numberOfSectionsInTableView"]
+- ["CSo8NSObject", "tableView"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
+- ["PSo16NSObjectProtocol", "tableView"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C12ClassCapture10SettingsVC", "Int"]
+- ["C12ClassCapture10SettingsVC", "UITableView"]
+- ["C12ClassCapture10SettingsVC", "deinit"]
+- ["C12ClassCapture10SettingsVC", "didReceiveMemoryWarning"]
+- ["C12ClassCapture10SettingsVC", "init"]
+- ["C12ClassCapture10SettingsVC", "numberOfSectionsInTableView"]
+- ["C12ClassCapture10SettingsVC", "tableView"]
+- ["C12ClassCapture10SettingsVC", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "numberOfSectionsInTableView"]
+- ["PSo21UIAppearanceContainer", "tableView"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "numberOfSectionsInTableView"]
+- ["PSo18UIContentContainer", "tableView"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "numberOfSectionsInTableView"]
+- ["PSo18UIFocusEnvironment", "tableView"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "UITableView"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "numberOfSectionsInTableView"]
+- ["CSo11UIResponder", "tableView"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo20UIScrollViewDelegate", "didReceiveMemoryWarning"]
+- ["PSo20UIScrollViewDelegate", "init"]
+- ["PSo20UIScrollViewDelegate", "numberOfSectionsInTableView"]
+- ["PSo20UIScrollViewDelegate", "tableView"]
+- ["PSo20UIScrollViewDelegate", "viewDidLoad"]
+- ["PSo20UIScrollViewDelegate", ""]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "numberOfSectionsInTableView"]
+- ["PSo16UIStateRestoring", "tableView"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["CSo21UITableViewController", "Int"]
+- ["CSo21UITableViewController", "UITableView"]
+- ["CSo21UITableViewController", "didReceiveMemoryWarning"]
+- ["CSo21UITableViewController", "init"]
+- ["CSo21UITableViewController", "numberOfSectionsInTableView"]
+- ["CSo21UITableViewController", "tableView"]
+- ["CSo21UITableViewController", "viewDidLoad"]
+- ["CSo21UITableViewController", ""]
+- ["PSo21UITableViewDataSource", "didReceiveMemoryWarning"]
+- ["PSo21UITableViewDataSource", "init"]
+- ["PSo21UITableViewDataSource", "numberOfSectionsInTableView"]
+- ["PSo21UITableViewDataSource", "tableView"]
+- ["PSo21UITableViewDataSource", "viewDidLoad"]
+- ["PSo21UITableViewDataSource", ""]
+- ["PSo19UITableViewDelegate", "didReceiveMemoryWarning"]
+- ["PSo19UITableViewDelegate", "init"]
+- ["PSo19UITableViewDelegate", "numberOfSectionsInTableView"]
+- ["PSo19UITableViewDelegate", "tableView"]
+- ["PSo19UITableViewDelegate", "viewDidLoad"]
+- ["PSo19UITableViewDelegate", ""]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "numberOfSectionsInTableView"]
+- ["PSo18UITraitEnvironment", "tableView"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "UITableView"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "numberOfSectionsInTableView"]
+- ["CSo16UIViewController", "tableView"]
+- ["CSo16UIViewController", "viewDidLoad"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C12ClassCapture10SettingsVC"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- "CSo21UITableViewController"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMSchema.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMResults.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMRealm.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMConstants.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMProperty.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMObject.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMMigration.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMDefines.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMCollection.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMArray.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/Realm.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Modules/module.modulemap"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/RealmSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "440d243d9bab245440eff70ee5c1a162"

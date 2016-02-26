@@ -1,0 +1,923 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UploadSelectionType"
+- "UploadRecordingVC"
+provides-nominal:
+- "O12ClassCapture19UploadSelectionType"
+- "C12ClassCapture17UploadRecordingVC"
+provides-member:
+- ["O12ClassCapture19UploadSelectionType", ""]
+- ["C12ClassCapture17UploadRecordingVC", ""]
+provides-dynamic-lookup:
+- "showPickerView"
+- "didReceiveMemoryWarning"
+- "courseLabel"
+- "selectCourseButtonTapped"
+- "selectSectionButton"
+- "sectionLabel"
+- "hidePickerView"
+- "pickerView"
+- "pickerView"
+- "pickerView"
+- "pickerView"
+- "panGestureRecognized"
+- "descriptionLabel"
+- "selectSectionButtonTapped"
+- "numberOfComponentsInPickerView"
+- "viewDidLoad"
+- "selectCourseButton"
+depends-top-level:
+- "UIViewController"
+- "UILabel"
+- "UIPickerViewDelegate"
+- "UIPickerViewDataSource"
+- "Int"
+- "=="
+- "UploadRecordingVC"
+- !private "StringLiteralType"
+- !private "UIView"
+- "UIPanGestureRecognizer"
+- "UIButton"
+- "UIPickerView"
+- !private "kPICKER_VIEW_HEIGHT"
+- "CGFloat"
+- !private "CGPointMake"
+- !private "-"
+- !private "CGRectMake"
+- "String"
+- "UploadSelectionType"
+- "AnyObject"
+- !private "<"
+- !private ">"
+depends-member:
+- !private ["P10RealmSwift11AddableType", "hashValue"]
+- !private ["PSs9AnyObject", "CGPointMake"]
+- !private ["PSs9AnyObject", "CGRectMake"]
+- !private ["PSs9AnyObject", "UIPickerView"]
+- !private ["PSs9AnyObject", "UIView"]
+- !private ["PSs9AnyObject", "addSubview"]
+- !private ["PSs9AnyObject", "animateWithDuration"]
+- !private ["PSs9AnyObject", "bounds"]
+- ["PSs9AnyObject", "courseLabel"]
+- !private ["PSs9AnyObject", "dataSource"]
+- !private ["PSs9AnyObject", "delegate"]
+- ["PSs9AnyObject", "descriptionLabel"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "frame"]
+- ["PSs9AnyObject", "hidePickerView"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "kPICKER_VIEW_HEIGHT"]
+- ["PSs9AnyObject", "numberOfComponentsInPickerView"]
+- ["PSs9AnyObject", "panGestureRecognized"]
+- ["PSs9AnyObject", "pickerView"]
+- !private ["PSs9AnyObject", "reloadAllComponents"]
+- ["PSs9AnyObject", "sectionLabel"]
+- ["PSs9AnyObject", "selectCourseButton"]
+- ["PSs9AnyObject", "selectCourseButtonTapped"]
+- ["PSs9AnyObject", "selectSectionButton"]
+- ["PSs9AnyObject", "selectSectionButtonTapped"]
+- !private ["PSs9AnyObject", "setTitle"]
+- ["PSs9AnyObject", "showPickerView"]
+- !private ["PSs9AnyObject", "translationInView"]
+- ["PSs9AnyObject", "uploadSelectionType"]
+- !private ["PSs9AnyObject", "view"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs23ArrayLiteralConvertible", "Normal"]
+- !private ["PSs22BidirectionalIndexType", "hashValue"]
+- !private ["PSs21BitwiseOperationsType", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "origin"]
+- !private ["VSC6CGRect", "width"]
+- !private ["PSs11CVarArgType", "CGPointMake"]
+- !private ["PSs11CVarArgType", "CGRectMake"]
+- !private ["PSs11CVarArgType", "UIPickerView"]
+- !private ["PSs11CVarArgType", "UIView"]
+- !private ["PSs11CVarArgType", "addSubview"]
+- !private ["PSs11CVarArgType", "animateWithDuration"]
+- !private ["PSs11CVarArgType", "bounds"]
+- ["PSs11CVarArgType", "courseLabel"]
+- !private ["PSs11CVarArgType", "dataSource"]
+- !private ["PSs11CVarArgType", "delegate"]
+- ["PSs11CVarArgType", "descriptionLabel"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "frame"]
+- !private ["PSs11CVarArgType", "hashValue"]
+- ["PSs11CVarArgType", "hidePickerView"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "kPICKER_VIEW_HEIGHT"]
+- ["PSs11CVarArgType", "numberOfComponentsInPickerView"]
+- ["PSs11CVarArgType", "panGestureRecognized"]
+- ["PSs11CVarArgType", "pickerView"]
+- !private ["PSs11CVarArgType", "reloadAllComponents"]
+- ["PSs11CVarArgType", "sectionLabel"]
+- ["PSs11CVarArgType", "selectCourseButton"]
+- ["PSs11CVarArgType", "selectCourseButtonTapped"]
+- ["PSs11CVarArgType", "selectSectionButton"]
+- ["PSs11CVarArgType", "selectSectionButtonTapped"]
+- !private ["PSs11CVarArgType", "setTitle"]
+- ["PSs11CVarArgType", "showPickerView"]
+- !private ["PSs11CVarArgType", "translationInView"]
+- ["PSs11CVarArgType", "uploadSelectionType"]
+- !private ["PSs11CVarArgType", "view"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "hashValue"]
+- !private ["PSs10Comparable", "init"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "CGPointMake"]
+- !private ["PSs23CustomStringConvertible", "CGRectMake"]
+- !private ["PSs23CustomStringConvertible", "UIPickerView"]
+- !private ["PSs23CustomStringConvertible", "UIView"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addSubview"]
+- !private ["PSs23CustomStringConvertible", "animateWithDuration"]
+- !private ["PSs23CustomStringConvertible", "bounds"]
+- ["PSs23CustomStringConvertible", "courseLabel"]
+- !private ["PSs23CustomStringConvertible", "dataSource"]
+- !private ["PSs23CustomStringConvertible", "delegate"]
+- ["PSs23CustomStringConvertible", "descriptionLabel"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "frame"]
+- !private ["PSs23CustomStringConvertible", "hashValue"]
+- ["PSs23CustomStringConvertible", "hidePickerView"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "kPICKER_VIEW_HEIGHT"]
+- ["PSs23CustomStringConvertible", "numberOfComponentsInPickerView"]
+- ["PSs23CustomStringConvertible", "panGestureRecognized"]
+- ["PSs23CustomStringConvertible", "pickerView"]
+- !private ["PSs23CustomStringConvertible", "reloadAllComponents"]
+- ["PSs23CustomStringConvertible", "sectionLabel"]
+- ["PSs23CustomStringConvertible", "selectCourseButton"]
+- ["PSs23CustomStringConvertible", "selectCourseButtonTapped"]
+- ["PSs23CustomStringConvertible", "selectSectionButton"]
+- ["PSs23CustomStringConvertible", "selectSectionButtonTapped"]
+- !private ["PSs23CustomStringConvertible", "setTitle"]
+- ["PSs23CustomStringConvertible", "showPickerView"]
+- !private ["PSs23CustomStringConvertible", "translationInView"]
+- ["PSs23CustomStringConvertible", "uploadSelectionType"]
+- !private ["PSs23CustomStringConvertible", "view"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "CGPointMake"]
+- !private ["PSs9Equatable", "CGRectMake"]
+- ["PSs9Equatable", "Course"]
+- !private ["PSs9Equatable", "Normal"]
+- ["PSs9Equatable", "Section"]
+- !private ["PSs9Equatable", "UIPickerView"]
+- !private ["PSs9Equatable", "UIView"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addSubview"]
+- !private ["PSs9Equatable", "animateWithDuration"]
+- !private ["PSs9Equatable", "bounds"]
+- ["PSs9Equatable", "courseLabel"]
+- !private ["PSs9Equatable", "dataSource"]
+- !private ["PSs9Equatable", "delegate"]
+- ["PSs9Equatable", "descriptionLabel"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "frame"]
+- ["PSs9Equatable", "hashValue"]
+- !private ["PSs9Equatable", "height"]
+- ["PSs9Equatable", "hidePickerView"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "kPICKER_VIEW_HEIGHT"]
+- ["PSs9Equatable", "numberOfComponentsInPickerView"]
+- !private ["PSs9Equatable", "origin"]
+- ["PSs9Equatable", "panGestureRecognized"]
+- ["PSs9Equatable", "pickerView"]
+- !private ["PSs9Equatable", "reloadAllComponents"]
+- ["PSs9Equatable", "sectionLabel"]
+- ["PSs9Equatable", "selectCourseButton"]
+- ["PSs9Equatable", "selectCourseButtonTapped"]
+- ["PSs9Equatable", "selectSectionButton"]
+- ["PSs9Equatable", "selectSectionButtonTapped"]
+- !private ["PSs9Equatable", "setTitle"]
+- ["PSs9Equatable", "showPickerView"]
+- !private ["PSs9Equatable", "translationInView"]
+- ["PSs9Equatable", "uploadSelectionType"]
+- !private ["PSs9Equatable", "view"]
+- ["PSs9Equatable", "viewDidLoad"]
+- !private ["PSs9Equatable", "width"]
+- !private ["PSs9Equatable", "x"]
+- !private ["PSs9Equatable", "y"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "hashValue"]
+- !private ["PSs8Hashable", "CGPointMake"]
+- !private ["PSs8Hashable", "CGRectMake"]
+- ["PSs8Hashable", "Course"]
+- ["PSs8Hashable", "Section"]
+- !private ["PSs8Hashable", "UIPickerView"]
+- !private ["PSs8Hashable", "UIView"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addSubview"]
+- !private ["PSs8Hashable", "animateWithDuration"]
+- !private ["PSs8Hashable", "bounds"]
+- ["PSs8Hashable", "courseLabel"]
+- !private ["PSs8Hashable", "dataSource"]
+- !private ["PSs8Hashable", "delegate"]
+- ["PSs8Hashable", "descriptionLabel"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "frame"]
+- ["PSs8Hashable", "hashValue"]
+- ["PSs8Hashable", "hidePickerView"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "kPICKER_VIEW_HEIGHT"]
+- ["PSs8Hashable", "numberOfComponentsInPickerView"]
+- ["PSs8Hashable", "panGestureRecognized"]
+- ["PSs8Hashable", "pickerView"]
+- !private ["PSs8Hashable", "reloadAllComponents"]
+- ["PSs8Hashable", "sectionLabel"]
+- ["PSs8Hashable", "selectCourseButton"]
+- ["PSs8Hashable", "selectCourseButtonTapped"]
+- ["PSs8Hashable", "selectSectionButton"]
+- ["PSs8Hashable", "selectSectionButtonTapped"]
+- !private ["PSs8Hashable", "setTitle"]
+- ["PSs8Hashable", "showPickerView"]
+- !private ["PSs8Hashable", "translationInView"]
+- ["PSs8Hashable", "uploadSelectionType"]
+- !private ["PSs8Hashable", "view"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "hashValue"]
+- !private ["PSs25IntegerLiteralConvertible", "hashValue"]
+- !private ["PSs11IntegerType", "hashValue"]
+- !private ["P10RealmSwift10MinMaxType", "hashValue"]
+- !private ["PSs14MirrorPathType", "hashValue"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "CGPointMake"]
+- !private ["PSo8NSCoding", "CGRectMake"]
+- !private ["PSo8NSCoding", "UIPickerView"]
+- !private ["PSo8NSCoding", "UIView"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "animateWithDuration"]
+- !private ["PSo8NSCoding", "bounds"]
+- ["PSo8NSCoding", "courseLabel"]
+- !private ["PSo8NSCoding", "dataSource"]
+- !private ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "descriptionLabel"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "frame"]
+- ["PSo8NSCoding", "hidePickerView"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kPICKER_VIEW_HEIGHT"]
+- ["PSo8NSCoding", "numberOfComponentsInPickerView"]
+- ["PSo8NSCoding", "panGestureRecognized"]
+- ["PSo8NSCoding", "pickerView"]
+- !private ["PSo8NSCoding", "reloadAllComponents"]
+- ["PSo8NSCoding", "sectionLabel"]
+- ["PSo8NSCoding", "selectCourseButton"]
+- ["PSo8NSCoding", "selectCourseButtonTapped"]
+- ["PSo8NSCoding", "selectSectionButton"]
+- ["PSo8NSCoding", "selectSectionButtonTapped"]
+- !private ["PSo8NSCoding", "setTitle"]
+- ["PSo8NSCoding", "showPickerView"]
+- ["PSo8NSCoding", "uploadSelectionType"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "CGPointMake"]
+- !private ["PSo26NSExtensionRequestHandling", "CGRectMake"]
+- !private ["PSo26NSExtensionRequestHandling", "UIPickerView"]
+- !private ["PSo26NSExtensionRequestHandling", "UIView"]
+- ["PSo26NSExtensionRequestHandling", "courseLabel"]
+- ["PSo26NSExtensionRequestHandling", "descriptionLabel"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "hidePickerView"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "kPICKER_VIEW_HEIGHT"]
+- ["PSo26NSExtensionRequestHandling", "numberOfComponentsInPickerView"]
+- ["PSo26NSExtensionRequestHandling", "panGestureRecognized"]
+- ["PSo26NSExtensionRequestHandling", "pickerView"]
+- ["PSo26NSExtensionRequestHandling", "sectionLabel"]
+- ["PSo26NSExtensionRequestHandling", "selectCourseButton"]
+- ["PSo26NSExtensionRequestHandling", "selectCourseButtonTapped"]
+- ["PSo26NSExtensionRequestHandling", "selectSectionButton"]
+- ["PSo26NSExtensionRequestHandling", "selectSectionButtonTapped"]
+- ["PSo26NSExtensionRequestHandling", "showPickerView"]
+- ["PSo26NSExtensionRequestHandling", "uploadSelectionType"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CGPointMake"]
+- !private ["CSo8NSObject", "CGRectMake"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UIPanGestureRecognizer"]
+- ["CSo8NSObject", "UIPickerView"]
+- !private ["CSo8NSObject", "UIView"]
+- ["CSo8NSObject", "UploadSelectionType"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "animateWithDuration"]
+- !private ["CSo8NSObject", "bounds"]
+- ["CSo8NSObject", "courseLabel"]
+- !private ["CSo8NSObject", "dataSource"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "descriptionLabel"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "hidePickerView"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kPICKER_VIEW_HEIGHT"]
+- ["CSo8NSObject", "numberOfComponentsInPickerView"]
+- ["CSo8NSObject", "panGestureRecognized"]
+- ["CSo8NSObject", "pickerView"]
+- !private ["CSo8NSObject", "reloadAllComponents"]
+- ["CSo8NSObject", "sectionLabel"]
+- ["CSo8NSObject", "selectCourseButton"]
+- ["CSo8NSObject", "selectCourseButtonTapped"]
+- ["CSo8NSObject", "selectSectionButton"]
+- ["CSo8NSObject", "selectSectionButtonTapped"]
+- !private ["CSo8NSObject", "setTitle"]
+- ["CSo8NSObject", "showPickerView"]
+- !private ["CSo8NSObject", "translationInView"]
+- ["CSo8NSObject", "uploadSelectionType"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CGPointMake"]
+- !private ["PSo16NSObjectProtocol", "CGRectMake"]
+- !private ["PSo16NSObjectProtocol", "UIPickerView"]
+- !private ["PSo16NSObjectProtocol", "UIView"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "animateWithDuration"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- ["PSo16NSObjectProtocol", "courseLabel"]
+- !private ["PSo16NSObjectProtocol", "dataSource"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "descriptionLabel"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "hidePickerView"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kPICKER_VIEW_HEIGHT"]
+- ["PSo16NSObjectProtocol", "numberOfComponentsInPickerView"]
+- ["PSo16NSObjectProtocol", "panGestureRecognized"]
+- ["PSo16NSObjectProtocol", "pickerView"]
+- !private ["PSo16NSObjectProtocol", "reloadAllComponents"]
+- ["PSo16NSObjectProtocol", "sectionLabel"]
+- ["PSo16NSObjectProtocol", "selectCourseButton"]
+- ["PSo16NSObjectProtocol", "selectCourseButtonTapped"]
+- ["PSo16NSObjectProtocol", "selectSectionButton"]
+- ["PSo16NSObjectProtocol", "selectSectionButtonTapped"]
+- !private ["PSo16NSObjectProtocol", "setTitle"]
+- ["PSo16NSObjectProtocol", "showPickerView"]
+- !private ["PSo16NSObjectProtocol", "translationInView"]
+- ["PSo16NSObjectProtocol", "uploadSelectionType"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- !private ["PSs13OptionSetType", "Normal"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs21RandomAccessIndexType", "hashValue"]
+- !private ["PSs16RawRepresentable", "Normal"]
+- !private ["P10RealmSwift17RealmOptionalType", "_getBuiltinLogicValue"]
+- !private ["P10RealmSwift17RealmOptionalType", "hashValue"]
+- !private ["PSs14SetAlgebraType", "Normal"]
+- !private ["PSs17SignedIntegerType", "hashValue"]
+- !private ["PSs16SignedNumberType", "hashValue"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "hashValue"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "animateWithDuration"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "dataSource"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "reloadAllComponents"]
+- !private ["PSo29UIAccessibilityIdentification", "setTitle"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "animateWithDuration"]
+- !private ["PSo12UIAppearance", "bounds"]
+- !private ["PSo12UIAppearance", "dataSource"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "reloadAllComponents"]
+- !private ["PSo12UIAppearance", "setTitle"]
+- !private ["PSo21UIAppearanceContainer", "CGPointMake"]
+- !private ["PSo21UIAppearanceContainer", "CGRectMake"]
+- !private ["PSo21UIAppearanceContainer", "UIPickerView"]
+- !private ["PSo21UIAppearanceContainer", "UIView"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "animateWithDuration"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- ["PSo21UIAppearanceContainer", "courseLabel"]
+- !private ["PSo21UIAppearanceContainer", "dataSource"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "descriptionLabel"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- ["PSo21UIAppearanceContainer", "hidePickerView"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "kPICKER_VIEW_HEIGHT"]
+- ["PSo21UIAppearanceContainer", "numberOfComponentsInPickerView"]
+- ["PSo21UIAppearanceContainer", "panGestureRecognized"]
+- ["PSo21UIAppearanceContainer", "pickerView"]
+- !private ["PSo21UIAppearanceContainer", "reloadAllComponents"]
+- ["PSo21UIAppearanceContainer", "sectionLabel"]
+- ["PSo21UIAppearanceContainer", "selectCourseButton"]
+- ["PSo21UIAppearanceContainer", "selectCourseButtonTapped"]
+- ["PSo21UIAppearanceContainer", "selectSectionButton"]
+- ["PSo21UIAppearanceContainer", "selectSectionButtonTapped"]
+- !private ["PSo21UIAppearanceContainer", "setTitle"]
+- ["PSo21UIAppearanceContainer", "showPickerView"]
+- ["PSo21UIAppearanceContainer", "uploadSelectionType"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "setTitle"]
+- !private ["PSo18UIContentContainer", "CGPointMake"]
+- !private ["PSo18UIContentContainer", "CGRectMake"]
+- !private ["PSo18UIContentContainer", "UIPickerView"]
+- !private ["PSo18UIContentContainer", "UIView"]
+- ["PSo18UIContentContainer", "courseLabel"]
+- ["PSo18UIContentContainer", "descriptionLabel"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "hidePickerView"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "kPICKER_VIEW_HEIGHT"]
+- ["PSo18UIContentContainer", "numberOfComponentsInPickerView"]
+- ["PSo18UIContentContainer", "panGestureRecognized"]
+- ["PSo18UIContentContainer", "pickerView"]
+- ["PSo18UIContentContainer", "sectionLabel"]
+- ["PSo18UIContentContainer", "selectCourseButton"]
+- ["PSo18UIContentContainer", "selectCourseButtonTapped"]
+- ["PSo18UIContentContainer", "selectSectionButton"]
+- ["PSo18UIContentContainer", "selectSectionButtonTapped"]
+- ["PSo18UIContentContainer", "showPickerView"]
+- ["PSo18UIContentContainer", "uploadSelectionType"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "setTitle"]
+- !private ["VSC14UIControlState", "Normal"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "animateWithDuration"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo17UICoordinateSpace", "dataSource"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "reloadAllComponents"]
+- !private ["PSo17UICoordinateSpace", "setTitle"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "animateWithDuration"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo13UIDynamicItem", "dataSource"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "reloadAllComponents"]
+- !private ["PSo13UIDynamicItem", "setTitle"]
+- !private ["PSo18UIFocusEnvironment", "CGPointMake"]
+- !private ["PSo18UIFocusEnvironment", "CGRectMake"]
+- !private ["PSo18UIFocusEnvironment", "UIPickerView"]
+- !private ["PSo18UIFocusEnvironment", "UIView"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "animateWithDuration"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- ["PSo18UIFocusEnvironment", "courseLabel"]
+- !private ["PSo18UIFocusEnvironment", "dataSource"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "descriptionLabel"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- ["PSo18UIFocusEnvironment", "hidePickerView"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "kPICKER_VIEW_HEIGHT"]
+- ["PSo18UIFocusEnvironment", "numberOfComponentsInPickerView"]
+- ["PSo18UIFocusEnvironment", "panGestureRecognized"]
+- ["PSo18UIFocusEnvironment", "pickerView"]
+- !private ["PSo18UIFocusEnvironment", "reloadAllComponents"]
+- ["PSo18UIFocusEnvironment", "sectionLabel"]
+- ["PSo18UIFocusEnvironment", "selectCourseButton"]
+- ["PSo18UIFocusEnvironment", "selectCourseButtonTapped"]
+- ["PSo18UIFocusEnvironment", "selectSectionButton"]
+- ["PSo18UIFocusEnvironment", "selectSectionButtonTapped"]
+- !private ["PSo18UIFocusEnvironment", "setTitle"]
+- ["PSo18UIFocusEnvironment", "showPickerView"]
+- ["PSo18UIFocusEnvironment", "uploadSelectionType"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo19UIGestureRecognizer", "translationInView"]
+- !private ["CSo22UIPanGestureRecognizer", "translationInView"]
+- !private ["CSo12UIPickerView", "dataSource"]
+- !private ["CSo12UIPickerView", "delegate"]
+- !private ["CSo12UIPickerView", "frame"]
+- !private ["CSo12UIPickerView", "init"]
+- !private ["CSo12UIPickerView", "reloadAllComponents"]
+- !private ["PSo22UIPickerViewDataSource", "CGPointMake"]
+- !private ["PSo22UIPickerViewDataSource", "CGRectMake"]
+- !private ["PSo22UIPickerViewDataSource", "UIPickerView"]
+- !private ["PSo22UIPickerViewDataSource", "UIView"]
+- !private ["PSo22UIPickerViewDataSource", "kPICKER_VIEW_HEIGHT"]
+- ["PSo22UIPickerViewDataSource", "numberOfComponentsInPickerView"]
+- ["PSo22UIPickerViewDataSource", "pickerView"]
+- !private ["PSo22UIPickerViewDataSource", "selectCourseButton"]
+- !private ["PSo22UIPickerViewDataSource", "selectSectionButton"]
+- !private ["PSo22UIPickerViewDataSource", "showPickerView"]
+- !private ["PSo22UIPickerViewDataSource", "uploadSelectionType"]
+- !private ["PSo22UIPickerViewDataSource", "view"]
+- ["PSo22UIPickerViewDataSource", ""]
+- !private ["PSo20UIPickerViewDelegate", "CGPointMake"]
+- !private ["PSo20UIPickerViewDelegate", "CGRectMake"]
+- !private ["PSo20UIPickerViewDelegate", "UIPickerView"]
+- !private ["PSo20UIPickerViewDelegate", "UIView"]
+- !private ["PSo20UIPickerViewDelegate", "kPICKER_VIEW_HEIGHT"]
+- ["PSo20UIPickerViewDelegate", "numberOfComponentsInPickerView"]
+- ["PSo20UIPickerViewDelegate", "pickerView"]
+- !private ["PSo20UIPickerViewDelegate", "selectCourseButton"]
+- !private ["PSo20UIPickerViewDelegate", "selectSectionButton"]
+- !private ["PSo20UIPickerViewDelegate", "showPickerView"]
+- !private ["PSo20UIPickerViewDelegate", "uploadSelectionType"]
+- !private ["PSo20UIPickerViewDelegate", "view"]
+- ["PSo20UIPickerViewDelegate", ""]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "CGPointMake"]
+- !private ["CSo11UIResponder", "CGRectMake"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UIPanGestureRecognizer"]
+- ["CSo11UIResponder", "UIPickerView"]
+- !private ["CSo11UIResponder", "UIView"]
+- ["CSo11UIResponder", "UploadSelectionType"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "animateWithDuration"]
+- !private ["CSo11UIResponder", "bounds"]
+- ["CSo11UIResponder", "courseLabel"]
+- !private ["CSo11UIResponder", "dataSource"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "descriptionLabel"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "frame"]
+- ["CSo11UIResponder", "hidePickerView"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "kPICKER_VIEW_HEIGHT"]
+- ["CSo11UIResponder", "numberOfComponentsInPickerView"]
+- ["CSo11UIResponder", "panGestureRecognized"]
+- ["CSo11UIResponder", "pickerView"]
+- !private ["CSo11UIResponder", "reloadAllComponents"]
+- ["CSo11UIResponder", "sectionLabel"]
+- ["CSo11UIResponder", "selectCourseButton"]
+- ["CSo11UIResponder", "selectCourseButtonTapped"]
+- ["CSo11UIResponder", "selectSectionButton"]
+- ["CSo11UIResponder", "selectSectionButtonTapped"]
+- !private ["CSo11UIResponder", "setTitle"]
+- ["CSo11UIResponder", "showPickerView"]
+- ["CSo11UIResponder", "uploadSelectionType"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "CGPointMake"]
+- !private ["PSo16UIStateRestoring", "CGRectMake"]
+- !private ["PSo16UIStateRestoring", "UIPickerView"]
+- !private ["PSo16UIStateRestoring", "UIView"]
+- ["PSo16UIStateRestoring", "courseLabel"]
+- ["PSo16UIStateRestoring", "descriptionLabel"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "hidePickerView"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "kPICKER_VIEW_HEIGHT"]
+- ["PSo16UIStateRestoring", "numberOfComponentsInPickerView"]
+- ["PSo16UIStateRestoring", "panGestureRecognized"]
+- ["PSo16UIStateRestoring", "pickerView"]
+- ["PSo16UIStateRestoring", "sectionLabel"]
+- ["PSo16UIStateRestoring", "selectCourseButton"]
+- ["PSo16UIStateRestoring", "selectCourseButtonTapped"]
+- ["PSo16UIStateRestoring", "selectSectionButton"]
+- ["PSo16UIStateRestoring", "selectSectionButtonTapped"]
+- ["PSo16UIStateRestoring", "showPickerView"]
+- ["PSo16UIStateRestoring", "uploadSelectionType"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo21UITableViewDataSource", "dataSource"]
+- !private ["PSo21UITableViewDataSource", "delegate"]
+- !private ["PSo21UITableViewDataSource", "frame"]
+- !private ["PSo21UITableViewDataSource", "init"]
+- !private ["PSo21UITableViewDataSource", "reloadAllComponents"]
+- !private ["PSo18UITraitEnvironment", "CGPointMake"]
+- !private ["PSo18UITraitEnvironment", "CGRectMake"]
+- !private ["PSo18UITraitEnvironment", "UIPickerView"]
+- !private ["PSo18UITraitEnvironment", "UIView"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "animateWithDuration"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- ["PSo18UITraitEnvironment", "courseLabel"]
+- !private ["PSo18UITraitEnvironment", "dataSource"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "descriptionLabel"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- ["PSo18UITraitEnvironment", "hidePickerView"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "kPICKER_VIEW_HEIGHT"]
+- ["PSo18UITraitEnvironment", "numberOfComponentsInPickerView"]
+- ["PSo18UITraitEnvironment", "panGestureRecognized"]
+- ["PSo18UITraitEnvironment", "pickerView"]
+- !private ["PSo18UITraitEnvironment", "reloadAllComponents"]
+- ["PSo18UITraitEnvironment", "sectionLabel"]
+- ["PSo18UITraitEnvironment", "selectCourseButton"]
+- ["PSo18UITraitEnvironment", "selectCourseButtonTapped"]
+- ["PSo18UITraitEnvironment", "selectSectionButton"]
+- ["PSo18UITraitEnvironment", "selectSectionButtonTapped"]
+- !private ["PSo18UITraitEnvironment", "setTitle"]
+- ["PSo18UITraitEnvironment", "showPickerView"]
+- ["PSo18UITraitEnvironment", "uploadSelectionType"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "animateWithDuration"]
+- !private ["CSo6UIView", "bounds"]
+- !private ["CSo6UIView", "dataSource"]
+- !private ["CSo6UIView", "delegate"]
+- !private ["CSo6UIView", "frame"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "reloadAllComponents"]
+- !private ["CSo6UIView", "setTitle"]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "CGPointMake"]
+- !private ["CSo16UIViewController", "CGRectMake"]
+- ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UIPanGestureRecognizer"]
+- ["CSo16UIViewController", "UIPickerView"]
+- !private ["CSo16UIViewController", "UIView"]
+- ["CSo16UIViewController", "UploadSelectionType"]
+- ["CSo16UIViewController", "courseLabel"]
+- ["CSo16UIViewController", "descriptionLabel"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "hidePickerView"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "kPICKER_VIEW_HEIGHT"]
+- ["CSo16UIViewController", "numberOfComponentsInPickerView"]
+- ["CSo16UIViewController", "panGestureRecognized"]
+- ["CSo16UIViewController", "pickerView"]
+- ["CSo16UIViewController", "sectionLabel"]
+- ["CSo16UIViewController", "selectCourseButton"]
+- ["CSo16UIViewController", "selectCourseButtonTapped"]
+- ["CSo16UIViewController", "selectSectionButton"]
+- ["CSo16UIViewController", "selectSectionButtonTapped"]
+- ["CSo16UIViewController", "showPickerView"]
+- ["CSo16UIViewController", "uploadSelectionType"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- ["C12ClassCapture17UploadRecordingVC", "AnyObject"]
+- !private ["C12ClassCapture17UploadRecordingVC", "CGPointMake"]
+- !private ["C12ClassCapture17UploadRecordingVC", "CGRectMake"]
+- ["C12ClassCapture17UploadRecordingVC", "Int"]
+- ["C12ClassCapture17UploadRecordingVC", "String"]
+- ["C12ClassCapture17UploadRecordingVC", "UIButton"]
+- ["C12ClassCapture17UploadRecordingVC", "UILabel"]
+- ["C12ClassCapture17UploadRecordingVC", "UIPanGestureRecognizer"]
+- ["C12ClassCapture17UploadRecordingVC", "UIPickerView"]
+- !private ["C12ClassCapture17UploadRecordingVC", "UIView"]
+- ["C12ClassCapture17UploadRecordingVC", "UploadSelectionType"]
+- ["C12ClassCapture17UploadRecordingVC", "courseLabel"]
+- ["C12ClassCapture17UploadRecordingVC", "deinit"]
+- ["C12ClassCapture17UploadRecordingVC", "descriptionLabel"]
+- ["C12ClassCapture17UploadRecordingVC", "didReceiveMemoryWarning"]
+- ["C12ClassCapture17UploadRecordingVC", "hidePickerView"]
+- ["C12ClassCapture17UploadRecordingVC", "init"]
+- !private ["C12ClassCapture17UploadRecordingVC", "kPICKER_VIEW_HEIGHT"]
+- ["C12ClassCapture17UploadRecordingVC", "numberOfComponentsInPickerView"]
+- ["C12ClassCapture17UploadRecordingVC", "panGestureRecognized"]
+- ["C12ClassCapture17UploadRecordingVC", "pickerView"]
+- ["C12ClassCapture17UploadRecordingVC", "sectionLabel"]
+- ["C12ClassCapture17UploadRecordingVC", "selectCourseButton"]
+- ["C12ClassCapture17UploadRecordingVC", "selectCourseButtonTapped"]
+- ["C12ClassCapture17UploadRecordingVC", "selectSectionButton"]
+- ["C12ClassCapture17UploadRecordingVC", "selectSectionButtonTapped"]
+- ["C12ClassCapture17UploadRecordingVC", "showPickerView"]
+- ["C12ClassCapture17UploadRecordingVC", "uploadSelectionType"]
+- !private ["C12ClassCapture17UploadRecordingVC", "view"]
+- ["C12ClassCapture17UploadRecordingVC", "viewDidLoad"]
+- ["O12ClassCapture19UploadSelectionType", "Course"]
+- ["O12ClassCapture19UploadSelectionType", "Section"]
+- ["O12ClassCapture19UploadSelectionType", "deinit"]
+- ["O12ClassCapture19UploadSelectionType", "hashValue"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs14_Incrementable", "hashValue"]
+- !private ["PSs22_IntegerArithmeticType", "hashValue"]
+- !private ["PSs12_IntegerType", "hashValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "hashValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "hashValue"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "addSubview"]
+- !private ["PSs12_Reflectable", "animateWithDuration"]
+- !private ["PSs12_Reflectable", "bounds"]
+- !private ["PSs12_Reflectable", "dataSource"]
+- !private ["PSs12_Reflectable", "delegate"]
+- !private ["PSs12_Reflectable", "frame"]
+- !private ["PSs12_Reflectable", "hashValue"]
+- !private ["PSs12_Reflectable", "height"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "origin"]
+- !private ["PSs12_Reflectable", "reloadAllComponents"]
+- !private ["PSs12_Reflectable", "setTitle"]
+- !private ["PSs12_Reflectable", "width"]
+- !private ["PSs12_Reflectable", "x"]
+- !private ["PSs12_Reflectable", "y"]
+- !private ["PSs18_SignedIntegerType", "hashValue"]
+- !private ["PSs11_Strideable", "hashValue"]
+depends-nominal:
+- !private "P10RealmSwift11AddableType"
+- "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "P10RealmSwift10MinMaxType"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs16RawRepresentable"
+- !private "P10RealmSwift17RealmOptionalType"
+- !private "PSs14SetAlgebraType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "VSC14UIControlState"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo19UIGestureRecognizer"
+- !private "CSo22UIPanGestureRecognizer"
+- !private "CSo12UIPickerView"
+- "PSo22UIPickerViewDataSource"
+- "PSo20UIPickerViewDelegate"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "PSo21UITableViewDataSource"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- "C12ClassCapture17UploadRecordingVC"
+- "O12ClassCapture19UploadSelectionType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm.swiftmodule"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMSchema.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMResults.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMRealm.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMConstants.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMProperty.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMObject.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMMigration.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMDefines.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMCollection.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/RLMArray.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Headers/Realm.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/Realm.framework/Modules/module.modulemap"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphoneos/RealmSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+interface-hash: "32ceb956ae04fbffc67febfcb952a1c3"

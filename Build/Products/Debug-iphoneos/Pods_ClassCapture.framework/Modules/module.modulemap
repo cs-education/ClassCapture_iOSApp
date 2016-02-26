@@ -1,0 +1,6 @@
+framework module Pods_ClassCapture {
+  umbrella header "Pods-ClassCapture-umbrella.h"
+
+  export *
+  module * { export * }
+}

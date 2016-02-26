@@ -1,0 +1,165 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Section"
+provides-nominal:
+- "C12ClassCapture7Section"
+provides-member:
+- ["C12ClassCapture7Section", ""]
+provides-dynamic-lookup:
+- "updatedAt"
+- "echo360UUID"
+- "course"
+- "name"
+depends-top-level:
+- "Int"
+- "RealmOptional"
+- "Object"
+- "String"
+- "Course"
+- "NSDate"
+- "Section"
+depends-member:
+- ["PSs9AnyObject", "RealmOptional"]
+- ["PSs9AnyObject", "course"]
+- ["PSs9AnyObject", "echo360UUID"]
+- ["PSs9AnyObject", "id"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "name"]
+- ["PSs9AnyObject", "updatedAt"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "course"]
+- ["PSs11CVarArgType", "echo360UUID"]
+- ["PSs11CVarArgType", "id"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "name"]
+- ["PSs11CVarArgType", "updatedAt"]
+- ["PSs23CustomStringConvertible", "course"]
+- ["PSs23CustomStringConvertible", "echo360UUID"]
+- ["PSs23CustomStringConvertible", "id"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "name"]
+- ["PSs23CustomStringConvertible", "updatedAt"]
+- ["PSs9Equatable", "course"]
+- ["PSs9Equatable", "echo360UUID"]
+- ["PSs9Equatable", "id"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "name"]
+- ["PSs9Equatable", "updatedAt"]
+- ["PSs8Hashable", "course"]
+- ["PSs8Hashable", "echo360UUID"]
+- ["PSs8Hashable", "id"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "name"]
+- ["PSs8Hashable", "updatedAt"]
+- ["CSo8NSObject", "Course"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "RealmOptional"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "course"]
+- ["CSo8NSObject", "echo360UUID"]
+- ["CSo8NSObject", "id"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "updatedAt"]
+- ["PSo16NSObjectProtocol", "course"]
+- ["PSo16NSObjectProtocol", "echo360UUID"]
+- ["PSo16NSObjectProtocol", "id"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "updatedAt"]
+- ["C10RealmSwift6Object", "Course"]
+- ["C10RealmSwift6Object", "Int"]
+- ["C10RealmSwift6Object", "NSDate"]
+- ["C10RealmSwift6Object", "RealmOptional"]
+- ["C10RealmSwift6Object", "String"]
+- ["C10RealmSwift6Object", "course"]
+- ["C10RealmSwift6Object", "echo360UUID"]
+- ["C10RealmSwift6Object", "id"]
+- ["C10RealmSwift6Object", "init"]
+- ["C10RealmSwift6Object", "name"]
+- ["C10RealmSwift6Object", "updatedAt"]
+- ["C10RealmSwift6Object", ""]
+- ["CSo13RLMObjectBase", "Course"]
+- ["CSo13RLMObjectBase", "Int"]
+- ["CSo13RLMObjectBase", "NSDate"]
+- ["CSo13RLMObjectBase", "RealmOptional"]
+- ["CSo13RLMObjectBase", "String"]
+- ["CSo13RLMObjectBase", "course"]
+- ["CSo13RLMObjectBase", "echo360UUID"]
+- ["CSo13RLMObjectBase", "id"]
+- ["CSo13RLMObjectBase", "init"]
+- ["CSo13RLMObjectBase", "name"]
+- ["CSo13RLMObjectBase", "updatedAt"]
+- ["C10RealmSwift13RealmOptional", "init"]
+- ["C12ClassCapture7Section", "Course"]
+- ["C12ClassCapture7Section", "Int"]
+- ["C12ClassCapture7Section", "NSDate"]
+- ["C12ClassCapture7Section", "RealmOptional"]
+- ["C12ClassCapture7Section", "String"]
+- ["C12ClassCapture7Section", "course"]
+- ["C12ClassCapture7Section", "deinit"]
+- ["C12ClassCapture7Section", "echo360UUID"]
+- ["C12ClassCapture7Section", "id"]
+- ["C12ClassCapture7Section", "init"]
+- ["C12ClassCapture7Section", "name"]
+- ["C12ClassCapture7Section", "updatedAt"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C10RealmSwift6Object"
+- "CSo13RLMObjectBase"
+- "C10RealmSwift13RealmOptional"
+- "C12ClassCapture7Section"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMListBase.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMSchema.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMResults.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMRealm.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMConstants.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMProperty.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMObject.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMMigration.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMDefines.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMCollection.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/RLMArray.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Headers/Realm.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/Realm.framework/Modules/module.modulemap"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/NicholasGarfield/Documents/Projects/ClassCapture/Build/Products/Debug-iphonesimulator/RealmSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "bc48c265aa21e1c3dab7039c65712586"
