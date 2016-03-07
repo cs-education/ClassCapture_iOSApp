@@ -83,6 +83,8 @@ class UsersServiceProvider: NSObject {
         let httpResponse = response as? NSHTTPURLResponse
         let cookies = NSHTTPCookie.cookiesWithResponseHeaderFields(httpResponse!.allHeaderFields as! [String:String], forURL: response!.URL!)
         
+        print(cookies) 
+        
 //        if let cs = httpResponse!.allHeaderFields["Set-Cookie"] {
 //            print(cs)
 //        }
