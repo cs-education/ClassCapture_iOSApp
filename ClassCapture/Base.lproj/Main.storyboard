@@ -339,13 +339,13 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZsT-Ou-uez">
-                                <rect key="frame" x="0.0" y="-50" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Loading" translatesAutoresizingMaskIntoConstraints="NO" id="5TI-Fo-wZI">
-                                        <rect key="frame" x="275" y="275" width="50" height="50"/>
+                                        <rect key="frame" x="275.5" y="225" width="50" height="50"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uploading Recording" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ZP-kA-eBh">
-                                        <rect key="frame" x="218.5" y="332.5" width="164.5" height="20.5"/>
+                                        <rect key="frame" x="218.5" y="282.5" width="164.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -354,7 +354,7 @@
                                 <color key="backgroundColor" white="1" alpha="0.0069999999999999993" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="5TI-Fo-wZI" firstAttribute="centerX" secondItem="ZsT-Ou-uez" secondAttribute="centerX" id="VhP-Vm-wjQ"/>
-                                    <constraint firstItem="5TI-Fo-wZI" firstAttribute="centerY" secondItem="ZsT-Ou-uez" secondAttribute="centerY" id="jjX-wa-YnS"/>
+                                    <constraint firstItem="5TI-Fo-wZI" firstAttribute="centerY" secondItem="ZsT-Ou-uez" secondAttribute="centerY" constant="-50" id="jjX-wa-YnS"/>
                                     <constraint firstItem="3ZP-kA-eBh" firstAttribute="centerX" secondItem="5TI-Fo-wZI" secondAttribute="centerX" id="qTa-dU-R3a"/>
                                     <constraint firstItem="3ZP-kA-eBh" firstAttribute="top" secondItem="5TI-Fo-wZI" secondAttribute="bottom" constant="8" id="r3c-pf-Juc"/>
                                 </constraints>
@@ -363,7 +363,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="ZsT-Ou-uez" firstAttribute="centerY" secondItem="OEp-h2-0dk" secondAttribute="centerY" constant="-50" id="5fO-J9-g4b"/>
+                            <constraint firstItem="ZsT-Ou-uez" firstAttribute="centerY" secondItem="OEp-h2-0dk" secondAttribute="centerY" id="5fO-J9-g4b"/>
                             <constraint firstItem="xOL-Hd-yYc" firstAttribute="top" secondItem="sPM-fG-Q8m" secondAttribute="bottom" constant="4" id="6Tb-ge-0AL"/>
                             <constraint firstItem="ZsT-Ou-uez" firstAttribute="width" secondItem="OEp-h2-0dk" secondAttribute="width" id="FTe-9w-CVN"/>
                             <constraint firstItem="bEf-zB-UQ0" firstAttribute="centerX" secondItem="OEp-h2-0dk" secondAttribute="centerX" id="H6P-vh-cgi"/>
