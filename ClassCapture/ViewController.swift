@@ -18,9 +18,6 @@ class ViewController: UIViewController, SideDrawerMenuDelegate, MenuDelegate, Lo
 
     @IBOutlet var captureContainer: UIView!
     @IBOutlet var sectionsContainer: UIView!
-    @IBOutlet var settingsContainer: UIView!
-
-    
     
     var settingsCom:SettingsCommunicator?
     
@@ -154,8 +151,6 @@ class ViewController: UIViewController, SideDrawerMenuDelegate, MenuDelegate, Lo
             view.insertSubview(captureContainer, belowSubview: backgroundTintView)
         case .Sections:
             view.insertSubview(sectionsContainer, belowSubview: backgroundTintView)
-        case .Settings:
-            view.insertSubview(settingsContainer, belowSubview: backgroundTintView)
         }
         closeMenuAnimationWithVelocity(0.0)
     }
@@ -171,16 +166,20 @@ class ViewController: UIViewController, SideDrawerMenuDelegate, MenuDelegate, Lo
         if segue.identifier == "EmbedSideDrawerMenuSegue" {
             guard let destVC = segue.destinationViewController as? SideDrawerMenuVC else { return }
             destVC.delegate = self
+            
         } else if segue.identifier == "EmbedSectionsSegue" {
             guard let navVC = segue.destinationViewController as? UINavigationController else { return }
             guard let destVC = navVC.topViewController as? SectionsVC else { return }
             settingsCom         = destVC
             destVC.menuDelegate = self
             destVC.model        = model
+            
         } else if segue.identifier == "EmbedCaptureSegue" {
             guard let navVC = segue.destinationViewController as? UINavigationController else { return }
             guard let destVC = navVC.topViewController as? CaptureVC else { return }
+            destVC.model = model
             destVC.menuDelegate = self
+            
         } else if segue.identifier == "EmbedSettingsSegue" {
             // TODO: Setup the settings menu
             
@@ -189,6 +188,7 @@ class ViewController: UIViewController, SideDrawerMenuDelegate, MenuDelegate, Lo
             guard let destVC = navVC.topViewController as? SignUpVC else { return }
             destVC.model    = model
             destVC.delegate = self
+            
         }
     }
     

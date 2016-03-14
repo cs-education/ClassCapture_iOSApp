@@ -11,12 +11,11 @@ import UIKit
 enum MenuOption:String {
     case Capture = "Capture"
     case Sections = "Sections"
-    case Settings = "Settings"
 }
 
 class SideDrawerMenuVC: UITableViewController {
     
-    let standardMenuOptions:[MenuOption] = [.Capture, .Sections, .Settings]
+    let standardMenuOptions:[MenuOption] = [.Capture, .Sections]
     var delegate:SideDrawerMenuDelegate?
     
     override func viewDidLoad() {

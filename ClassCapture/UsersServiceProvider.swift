@@ -12,7 +12,32 @@ import RealmSwift
 class UsersServiceProvider: NSObject {
     
     func isLocalUserLoggedIn() -> Bool {
-        return getLocalUser() != nil
+        guard let cookies = NSHTTPCookieStorage.sharedHTTPCookieStorage().cookiesForURL(NSURL(string: "http://classcapture.cs.illinois.edu")!) else {
+            logout()
+            return false
+        }
+        if cookies.count < 1 {
+            logout()
+            return false
+        } else {
+            return getLocalUser() != nil
+        }
+    }
+    
+    func logout() {
+        let realm = try! Realm()
+        let users:Results<User> = realm.objects(User)
+        let sections:Results<Section> = realm.objects(Section)
+        let courses:Results<Course> = realm.objects(Course)
+        let recordings:Results<Recording> = realm.objects(Recording)
+        try! realm.write {
+            realm.delete(users)
+            realm.delete(sections)
+            realm.delete(courses)
+            realm.delete(recordings)
+        }
+        NSUserDefaults.standardUserDefaults().removeObjectForKey("userID")
+        NSUserDefaults.standardUserDefaults().synchronize()
     }
     
     func getLocalUser() -> User? {
@@ -83,12 +108,13 @@ class UsersServiceProvider: NSObject {
         let httpResponse = response as? NSHTTPURLResponse
         let cookies = NSHTTPCookie.cookiesWithResponseHeaderFields(httpResponse!.allHeaderFields as! [String:String], forURL: response!.URL!)
         
-        print(cookies) 
+        print(cookies)
         
 //        if let cs = httpResponse!.allHeaderFields["Set-Cookie"] {
 //            print(cs)
 //        }
 //        NSUserDefaults.standardUserDefaults().setObject(, forKey: <#T##String#>)
+        
         NSHTTPCookieStorage.sharedHTTPCookieStorage().setCookies(cookies, forURL: response!.URL!, mainDocumentURL: nil)
 
         
@@ -101,19 +127,25 @@ class UsersServiceProvider: NSObject {
 //            for cookie in cookies {
 //                var properties = cookie.properties
 //                if properties != nil {
+//                    
 //                    properties!["Discard"] = false
+//                    properties![NSHTTPCookieExpires] = false
+//                    
+//                    print("\n\nPROPERTIES\n\(properties)")
 //                    if let newCookie = NSHTTPCookie(properties: properties!) {
+////                        newCookie.sessionOnly = false
 //                        newCookies += [newCookie]
 //                    }
 //                }
 //            }
+            
+//            print("\n\nNEW COOKIES\n\(newCookies)\n")
+
+            
 //            let cookiesData = try NSJSONSerialization.dataWithJSONObject(cookiesJson, options: [])
 //            NSHTTPCookieStorage.sharedHTTPCookieStorage().setCookies(newCookies, forURL: response!.URL!, mainDocumentURL: nil)
-            
-
 //            NSUserDefaults.standardUserDefaults().setObject(cookiesData, forKey: "cookiesData")
-//            NSUserDefaults.standardUserDefaults().synchronize()
-            
+//            NSUserDefaultslas.standardUserDefaults().synchronize()
 //            print(json)
             
             guard let u_email       = json["email"]       as? String        else { return }

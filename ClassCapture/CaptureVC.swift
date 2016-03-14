@@ -11,7 +11,10 @@ import MobileCoreServices
 
 class CaptureVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    
     @IBOutlet var menuButton: UIBarButtonItem!
+
+    var model:Model?
     var menuDelegate:MenuDelegate?
     
     @IBOutlet var cameraImageView: UIImageView!
@@ -102,7 +105,8 @@ class CaptureVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
         if segue.identifier == "UploadRecordingSegue" {
             guard let navVC = segue.destinationViewController as? UINavigationController else { return }
             guard let destVC = navVC.topViewController as? UploadRecordingVC else { return }
-            
+
+            destVC.model = model
             destVC.videoData = videoData
         }
     }
